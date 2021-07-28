@@ -16,7 +16,15 @@ export default function ImageAvatars() {
 
   return (
     <div className={classes.root}>
-      <Avatar alt="Vi" src="/one.jpg" />
+      <Avatar alt="A" src="/one.jpg" />
+      <Avatar alt="B" src="/one.jpg" />
+      <Avatar alt="C" src="/one.jpg" />
+      <Avatar alt="D" src="/one.jpg" />
+      <Avatar alt="E" src="/one.jpg" />
+      <Avatar alt="F" src="/one.jpg" />
+      <Avatar alt="G" src="/one.jpg" />
+      <Avatar alt="H" src="/one.jpg" />
+
     </div>
   );
 }

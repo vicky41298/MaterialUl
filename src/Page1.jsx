@@ -70,7 +70,7 @@ export default class MarerialUIDrawer
               <ListItem button key='Page2'>
                 <ListItemIcon><AccountCircleIcon/>
                 </ListItemIcon>
-                <ListItemText primary='Dummy' />
+                <ListItemText primary='Avatar Display' />
               </ListItem>
             </List>
           </Link>
