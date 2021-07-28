@@ -4,15 +4,16 @@ const styles = {
   Page3: {
     padding:'50px',
     textAlign: 'centre',
-    backgroundColor: '#28462f',
-    color: 'white',
+    color: 'Black',
   }
 }
 export default class Page3 extends React.Component{
   render(){
     return <div style = {styles.Page3}>
       <h1>Gallery</h1>
-      <p>Click on the temporary drawer to navigate through the webpage.</p>
+      <img src={require('./one.jpeg') } alt="Image1" />
+      
     </div>
+    
   }
 }

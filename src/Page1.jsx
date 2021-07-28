@@ -56,12 +56,21 @@ export default class MarerialUIDrawer
           open={isDrawerOpened}
           onClose={this.closeDrawer}
         >
+          <Link to='/' style={styles.link}>
+            <List>
+              <ListItem button key='Page4'>
+                <ListItemIcon><AccountCircleIcon/>
+                </ListItemIcon>
+                <ListItemText primary='Home' />
+              </ListItem>
+            </List>
+          </Link>
           <Link to='/Page2' style={styles.link}>
             <List>
               <ListItem button key='Page2'>
                 <ListItemIcon><AccountCircleIcon/>
                 </ListItemIcon>
-                <ListItemText primary='Page2' />
+                <ListItemText primary='Dummy' />
               </ListItem>
             </List>
           </Link>
@@ -70,7 +79,7 @@ export default class MarerialUIDrawer
             <ListItem button key='Page3'>
               <ListItemIcon><PermContactCalendarIcon/>
               </ListItemIcon>
-              <ListItemText primary='Page3' />
+              <ListItemText primary='Gallery' />
             </ListItem>
             </List>
           </Link>
